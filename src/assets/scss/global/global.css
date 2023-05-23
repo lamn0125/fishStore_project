@@ -1,0 +1,22 @@
+body {
+  background: #fff;
+  color: #000;
+  font-family: "Roboto", sans-serif;
+}
+
+.base-container {
+  padding: 30px;
+  height: auto;
+  width: 100%;
+}
+
+* {
+  color: rgb(0, 48, 13);
+}
+
+.divider-line {
+  width: 90%;
+  height: 1px;
+  background-color: #8e8e8f;
+  margin: 2rem auto;
+}/*# sourceMappingURL=global.css.map */
