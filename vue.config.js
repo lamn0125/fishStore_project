@@ -11,5 +11,5 @@ module.exports = defineConfig({
     },
   },
 
-  publicPath: '/vue-project/dist/'
+  publicPath: '/dist/'
 });
