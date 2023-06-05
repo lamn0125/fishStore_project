@@ -21,7 +21,7 @@
         <del v-if="product.price"
           >ORIGINAL PRICE :  $ {{ product.origin_price }}</del>
         <div v-if="product.price" class="product-price">
-          ON SALE PRICE : $ {{ $filters.currenecy(product.price) }}
+          ON SALE PRICE : $ {{ $filters.currency(product.price) }}
         </div>
         <br />
       <button type="button" class="add-btn" @click="addToCart(product.id)">ADD TO CART</button>
@@ -144,6 +144,7 @@ inject: ["emitter"],
   },
   created() {
     this.id = this.$route.params.productId;
+    console.log(this.id)
     this.getProduct();
   },
 };
